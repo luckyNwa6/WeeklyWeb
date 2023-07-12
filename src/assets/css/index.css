@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 下面是登录页 */
+.bg {
+    background: url('~@/assets/img/bg.jpg');
+    height: 100vh;
+}
+
+.login-container {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.login-title {
+    margin-top: 20px;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #2a98e0;
+    font-weight: 800;
+}
+
+.login-form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.code-image {
+    width: 120px;
+    height: 40px;
+}
+
+.yzmdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.yzmdiv .el-button {
+    color: #9600ff;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    height: 40px;
+    text-align: center;
+    margin-left: 26px;
+}
+
+/* 首页 */
+#module .el-aside {
+    height: 100%;
+    width: 152px !important;
+}
+
+#module .el-menu {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #252d35, #252d35);
+}
+
+#module .el-menu li,
+#module .el-menu .el-submenu__title {
+    color: #fff;
+}
+
+#module .el-breadcrumb {
+    line-height: 60px;
+}
+
+.headerL {
+    background-image: linear-gradient(to right, #1a75b5, #2173ad);
+}
+
+.headContainer {
+    /* margin-left: 160px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlog {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+
+}
